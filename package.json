@@ -1,0 +1,26 @@
+{
+  "name": "koaku",
+  "version": "1.0.0",
+  "description": "CSS parsing library that does CSS <-> JSON",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entrpix/koaku.git"
+  },
+  "author": "Scaratek",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/entrpix/koaku/issues"
+  },
+  "homepage": "https://github.com/entrpix/koaku#readme",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
