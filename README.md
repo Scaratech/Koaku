@@ -1,6 +1,16 @@
 # Koaku
 A CSS parsing library written in TS that converts CSS to JSON and vise versa
 
+## TODO
+- [ ] `@import ""` Parsing
+- [ ] `@import url("")` Parsing
+- [ ] Support for:
+```css
+h1, h2 {
+    color: black
+}
+```
+
 ## Usage
 ```ts
 import { parse, generate } from '@scaratech/koaku'; // npm i @scaratech/koaku
