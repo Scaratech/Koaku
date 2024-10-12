@@ -1,8 +1,7 @@
 {
-  "name": "koaku",
-  "version": "1.0.0",
+  "name": "@scaratech/koaku",
+  "version": "1.0.1",
   "description": "CSS parsing library that does CSS <-> JSON",
-  "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
