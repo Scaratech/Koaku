@@ -20,7 +20,7 @@ h1, h2 {
 ```
 - [ ] `var()` Support
 - [ ] `--` Support
-- [ ] `@propert` Support (wtf even is this :pray:)
+- [ ] `@property` Support (wtf even is this :pray:)
 
 ## Usage
 ```ts
