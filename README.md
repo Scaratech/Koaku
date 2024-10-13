@@ -2,14 +2,25 @@
 A CSS parsing library written in TS that converts CSS to JSON and vise versa
 
 ## TODO
-- [ ] `@import ""` Parsing
-- [ ] `@import url("")` Parsing
+- [ ] `@import ""` Support
+- [ ] `@import url("")` Support
 - [ ] Support for:
 ```css
 h1, h2 {
     color: black
 }
 ```
+- [ ] Support for:
+```css
+.main {
+    h1 {
+        color: black;
+    }
+}
+```
+- [ ] `var()` Support
+- [ ] `--` Support
+- [ ] `@propert` Support (wtf even is this :pray:)
 
 ## Usage
 ```ts
